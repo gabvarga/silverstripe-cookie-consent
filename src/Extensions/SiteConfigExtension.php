@@ -3,7 +3,7 @@
 namespace Broarm\CookieConsent\Extensions;
 
 use Broarm\CookieConsent\Model\CookieGroup;
-use SilverStripe\ORM\DataExtension;
+use SilverStripe\Core\Extension;
 use SilverStripe\Forms\GridField\GridField;
 use SilverStripe\Forms\GridField\GridFieldConfig_RecordEditor;
 use SilverStripe\Forms\TextField;
@@ -15,7 +15,7 @@ use SilverStripe\SiteConfig\SiteConfig;
  * Class SiteConfigExtension
  * @package Broarm\CookieConsent
  */
-class SiteConfigExtension extends DataExtension
+class SiteConfigExtension extends Extension
 {
     private static $db = array(
         'CookieConsentTitle' => 'Varchar(255)',

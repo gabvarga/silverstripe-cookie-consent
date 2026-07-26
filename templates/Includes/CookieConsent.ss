@@ -10,10 +10,10 @@
             $SiteConfig.CookieConsentContent
             <div class="cookie-consent__buttons">
                 <a class="button cookie-consent__button cookie-consent__button--accept" href="$AcceptAllCookiesLink" rel="nofollow" id="accept-all-cookies">
-                    <%t Broarm\\CookieConsent\\CookieConsent.AcceptAllCookies 'Accept all cookies' %>
+                    <% _t('Broarm\CookieConsent\CookieConsent.AcceptAllCookies', 'Accept all cookies') %>
                 </a>
                 <a class="button hollow cookie-consent__button cookie-consent__button--manage" href="$CookiePolicyPage.Link">
-                    <%t Broarm\\CookieConsent\\CookieConsent.ManageCookies 'Manage cookie settings' %>
+                    <% _t('Broarm\CookieConsent\CookieConsent.ManageCookies', 'Manage cookie settings') %>
                 </a>
             </div>
         </div>
